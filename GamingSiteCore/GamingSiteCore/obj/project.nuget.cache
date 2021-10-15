@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "ADyvrbTqlgo8oLl+VPldX4r5ISKXH6xJOcp+jACfahhjV0CZ6+w0i/HyGveowfgj+/V79NE385i4W7/ha1DCKw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\auset\\Documents\\Site\\GamingSite\\GamingSiteCore\\GamingSiteCore\\GamingSiteCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\auset\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\5.0.9\\microsoft.aspnetcore.spaservices.extensions.5.0.9.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.SpaServices.Extensions 5.0.9 is not compatible with netcoreapp5.0 (.NETCoreApp,Version=v5.0). Package Microsoft.AspNetCore.SpaServices.Extensions 5.0.9 supports: net50 (.NETFramework,Version=v5.0)",
+      "libraryId": "Microsoft.AspNetCore.SpaServices.Extensions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v5.0"
+      ]
+    }
+  ]
+}

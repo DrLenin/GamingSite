@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Microsoft.AspNetCore.SpaServices.Extensions/5.0.9": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNetCore.SpaServices.Extensions/5.0.9": {
+      "sha512": "86g0Epwms+0SpG5e2dO2GC/0ADoN/l+jU9jQ1xte3YYzstpKdwSin81/LIPuhqDMW4DAUSVxe0W6me2L0yFGjA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.spaservices.extensions/5.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net5.0/Microsoft.AspNetCore.SpaServices.Extensions.dll",
+        "microsoft.aspnetcore.spaservices.extensions.5.0.9.nupkg.sha512",
+        "microsoft.aspnetcore.spaservices.extensions.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v5.0": [
+      "Microsoft.AspNetCore.SpaServices.Extensions >= 5.0.9"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\auset\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\auset\\Documents\\Site\\GamingSite\\GamingSiteCore\\GamingSiteCore\\GamingSiteCore.csproj",
+      "projectName": "GamingSiteCore",
+      "projectPath": "C:\\Users\\auset\\Documents\\Site\\GamingSite\\GamingSiteCore\\GamingSiteCore\\GamingSiteCore.csproj",
+      "packagesPath": "C:\\Users\\auset\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\auset\\Documents\\Site\\GamingSite\\GamingSiteCore\\GamingSiteCore\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\auset\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net50"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp5.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp5.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.SpaServices.Extensions": {
+            "target": "Package",
+            "version": "[5.0.9, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.SpaServices.Extensions 5.0.9 is not compatible with netcoreapp5.0 (.NETCoreApp,Version=v5.0). Package Microsoft.AspNetCore.SpaServices.Extensions 5.0.9 supports: net50 (.NETFramework,Version=v5.0)",
+      "libraryId": "Microsoft.AspNetCore.SpaServices.Extensions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v5.0"
+      ]
+    }
+  ]
+}
